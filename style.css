@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	width: 70%;
+	height: 100vh;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container button {
+	margin: 0 auto;
+	width: 200px;
+	height: 70px;
+	font-size: 20px;
+	border: none;
+	background-color: rgb(66, 66, 66);
+	color: white;
+	cursor: pointer;
+	transition: 0.2s all;
+	margin-top: 50px;
+}
+
+.container button:hover {
+	transform: scale(1.1);
+}
+
+.container button:active {
+	transform: scale(0.9);
+}
+
+.container .text {
+	font-size: 30px;
+	color: #4385ff;
+}
